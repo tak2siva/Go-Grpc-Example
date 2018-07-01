@@ -9,3 +9,9 @@ go run cmd/server/main.go
 ```
 go run cmd/client/main.go
 ```
+
+### Generate Proto
+
+```
+protoc -I proto/ --go_out=plugins=grpc:lib/api proto/api.proto
+```
