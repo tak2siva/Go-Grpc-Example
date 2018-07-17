@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Go-Simple-Grpc-Example/lib/proto"
+	"Go-Grpc-Example/lib/proto"
 	"fmt"
 	"io"
 	"log"
