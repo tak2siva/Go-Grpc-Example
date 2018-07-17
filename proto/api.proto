@@ -6,4 +6,5 @@ message PingMessage {
 }
 service Ping {
   rpc SayHello(PingMessage) returns (PingMessage) {}
+  rpc MessageSocket(stream PingMessage) returns (stream PingMessage) {}
 }
